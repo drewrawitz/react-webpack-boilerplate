@@ -1,5 +1,5 @@
 # React + Webpack Boilerplate
-This boilerplate is heavily based on [Getting started with webpack and React, ES6 style](http://humaan.com/getting-started-with-webpack-and-react-es6-style/) article on the Humaan blog, along with my own personal customizations and preferences.
+This boilerplate is heavily based on the [Getting started with webpack and React, ES6 style](http://humaan.com/getting-started-with-webpack-and-react-es6-style/) article on the Humaan blog, along with my own personal customizations and preferences.
 
 ## Install
 ```
