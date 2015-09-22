@@ -10,6 +10,11 @@ export default class Header extends React.Component {
     }
   }
 
+  static propTypes = {
+    initialCount: React.PropTypes.number,
+    maxCount: React.PropTypes.number
+  }
+
   static defaultProps = {
     initialCount: 0,
     maxCount: 10
@@ -41,3 +46,4 @@ export default class Header extends React.Component {
     );
   }
 }
+
