@@ -7,7 +7,12 @@ export default class Header extends React.Component {
 
     this.state =  {
       count: this.props.initialCount
-    };
+    }
+  }
+
+  static defaultProps = {
+    initialCount: 0,
+    maxCount: 10
   }
 
   add = () => {
@@ -35,9 +40,4 @@ export default class Header extends React.Component {
       </div>
     );
   }
-}
-
-Header.defaultProps = {
-  initialCount: 0,
-  maxCount: 10
 }
