@@ -17,7 +17,7 @@ export default class Header extends React.Component {
 
   static defaultProps = {
     initialCount: 0,
-    maxCount: 10
+    maxCount: 5
   }
 
   add = () => {
@@ -46,4 +46,3 @@ export default class Header extends React.Component {
     );
   }
 }
-
