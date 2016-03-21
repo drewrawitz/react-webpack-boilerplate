@@ -7,6 +7,9 @@ module.exports = {
     filename: 'bundle.js'
   },
   devtool: 'eval',
+  devServer: {
+    historyApiFallback: true
+  },
   module: {
     preLoaders: [
       {
