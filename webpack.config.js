@@ -21,7 +21,7 @@ module.exports = {
         loaders: [
           'style',
           'css',
-          'autoprefixer?browsers=last 3 versions',
+          'postcss-loader',
           'sass?outputStyle=expanded'
         ]
       },
@@ -37,7 +37,7 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         loaders: [
           'react-hot',
-          'babel?stage=0'
+          'babel-loader'
         ]
       }
     ]
